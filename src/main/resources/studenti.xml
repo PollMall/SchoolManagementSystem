@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<studenti>
+    <student id="1">
+        <nume>Popa</nume>
+        <prenume>Paul</prenume>
+        <grupa>222</grupa>
+        <email>ppir2643@scs.ubbcluj.ro</email>
+        <cadruDidacticIndrumatorLab>Teo</cadruDidacticIndrumatorLab>
+    </student>
+    <student id="2">
+        <nume>Hulpoi</nume>
+        <prenume>Alexandra-Ioana</prenume>
+        <grupa>223</grupa>
+        <email>hair6432@scs.ubbcluj.ro</email>
+        <cadruDidacticIndrumatorLab>Bufny</cadruDidacticIndrumatorLab>
+    </student>
+    <student id="3">
+        <nume>Ion</nume>
+        <prenume>Mirel</prenume>
+        <grupa>222</grupa>
+        <email>imir2145@scs.ubbcluj.ro</email>
+        <cadruDidacticIndrumatorLab>Teofana</cadruDidacticIndrumatorLab>
+    </student>
+    <student id="4">
+        <nume>Vlasin</nume>
+        <prenume>Dragos</prenume>
+        <grupa>222</grupa>
+        <email>vdir5860@scs.ubbcluj.ro</email>
+        <cadruDidacticIndrumatorLab>Teofana</cadruDidacticIndrumatorLab>
+    </student>
+    <student id="5">
+        <nume>Vlasin</nume>
+        <prenume>Bogdan</prenume>
+        <grupa>227</grupa>
+        <email>vbir2643@scs.ubbcluj.ro</email>
+        <cadruDidacticIndrumatorLab>Viorica</cadruDidacticIndrumatorLab>
+    </student>
+    <student id="6">
+        <nume>Mohamed</nume>
+        <prenume>Dali Ahmed</prenume>
+        <grupa>221</grupa>
+        <email>md2567@scs.ubbcluj.ro</email>
+        <cadruDidacticIndrumatorLab>Buffallo</cadruDidacticIndrumatorLab>
+    </student>
+</studenti>

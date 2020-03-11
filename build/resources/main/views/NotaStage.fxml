@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="579.0" prefWidth="1102.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.NotaStageController">
+   <children>
+      <ComboBox fx:id="temeComboBox" layoutX="480.0" layoutY="18.0" onAction="#handleComboBox" prefHeight="25.0" prefWidth="125.0" AnchorPane.bottomAnchor="536.0" AnchorPane.leftAnchor="481.0" AnchorPane.rightAnchor="400.0" AnchorPane.topAnchor="18.0" />
+      <TableView fx:id="studentiTableView" layoutX="33.0" layoutY="10.0" prefHeight="377.0" prefWidth="429.0" AnchorPane.bottomAnchor="192.0" AnchorPane.leftAnchor="33.0" AnchorPane.rightAnchor="640.0" AnchorPane.topAnchor="10.0">
+        <columns>
+          <TableColumn fx:id="idTableColumn" prefWidth="67.0" text="ID" />
+          <TableColumn fx:id="numeTableColumn" prefWidth="121.0" text="Nume" />
+            <TableColumn fx:id="prenumeTableColumn" prefWidth="198.0" text="Prenume" />
+            <TableColumn fx:id="grupaTableColumn" minWidth="7.0" prefWidth="41.0" text="Grupa" />
+        </columns>
+      </TableView>
+      <TextField fx:id="profesorTextField" alignment="CENTER" layoutX="480.0" layoutY="141.0" prefHeight="25.0" prefWidth="305.0" promptText="Profesor" AnchorPane.bottomAnchor="413.0" AnchorPane.leftAnchor="480.0" AnchorPane.rightAnchor="317.0" AnchorPane.topAnchor="141.0" />
+      <TextField fx:id="notaTextField" alignment="CENTER" layoutX="480.0" layoutY="194.0" prefHeight="25.0" prefWidth="126.0" promptText="Valoare nota" AnchorPane.bottomAnchor="360.0" AnchorPane.leftAnchor="480.0" AnchorPane.rightAnchor="496.0" AnchorPane.topAnchor="194.0" />
+      <TextArea fx:id="descriereTextArea" layoutX="481.0" layoutY="240.0" prefHeight="148.0" prefWidth="287.0" promptText="Descrierea pentru tema" AnchorPane.bottomAnchor="191.0" AnchorPane.leftAnchor="481.0" AnchorPane.rightAnchor="334.0" AnchorPane.topAnchor="240.0" />
+      <TextField fx:id="numeTextField" alignment="CENTER" layoutX="481.0" layoutY="82.0" prefHeight="25.0" prefWidth="221.0" promptText="Nume student" AnchorPane.bottomAnchor="472.0" AnchorPane.leftAnchor="481.0" AnchorPane.rightAnchor="400.0" AnchorPane.topAnchor="82.0" />
+      <CheckBox fx:id="motivatCheckBox" layoutX="832.0" layoutY="186.0" mnemonicParsing="false" onAction="#handleMotivat" prefHeight="17.0" prefWidth="126.0" text="Student motivat" AnchorPane.bottomAnchor="376.0" AnchorPane.leftAnchor="832.0" AnchorPane.rightAnchor="144.0" AnchorPane.topAnchor="186.0" />
+      <CheckBox fx:id="intarziereCheckBox" layoutX="832.0" layoutY="273.0" mnemonicParsing="false" onAction="#handleIntarziat" prefHeight="17.0" prefWidth="143.0" text="A intarziat profesorul" AnchorPane.bottomAnchor="289.0" AnchorPane.leftAnchor="832.0" AnchorPane.rightAnchor="127.0" AnchorPane.topAnchor="273.0" />
+      <TextField fx:id="dataMotivareTextField" alignment="CENTER" layoutX="841.0" layoutY="240.0" prefHeight="25.0" prefWidth="126.0" promptText="Data motivare" AnchorPane.bottomAnchor="314.0" AnchorPane.leftAnchor="841.0" AnchorPane.rightAnchor="135.0" AnchorPane.topAnchor="240.0" />
+      <TextField fx:id="prenumeTextField" alignment="CENTER" layoutX="713.0" layoutY="82.0" prefHeight="25.0" prefWidth="269.0" promptText="Prenume student" AnchorPane.bottomAnchor="472.0" AnchorPane.leftAnchor="713.0" AnchorPane.rightAnchor="120.0" AnchorPane.topAnchor="82.0" />
+      <Button fx:id="addMotivareBtn" layoutX="987.0" layoutY="240.0" mnemonicParsing="false" onAction="#handleAddMotivare" prefHeight="25.0" prefWidth="41.0" text="ADD" AnchorPane.bottomAnchor="314.0" AnchorPane.leftAnchor="987.0" AnchorPane.rightAnchor="74.0" AnchorPane.topAnchor="240.0" />
+      <TextField fx:id="dataPredareTextField" alignment="CENTER" layoutX="841.0" layoutY="331.0" prefHeight="25.0" prefWidth="126.0" promptText="Data predare tema" AnchorPane.bottomAnchor="223.0" AnchorPane.leftAnchor="841.0" AnchorPane.rightAnchor="135.0" AnchorPane.topAnchor="331.0" />
+      <Button layoutX="33.0" layoutY="425.0" mnemonicParsing="false" onAction="#handleToTeme" prefHeight="63.0" prefWidth="126.0" text="-&gt;Teme" AnchorPane.bottomAnchor="91.0" AnchorPane.leftAnchor="33.0" AnchorPane.rightAnchor="943.0" AnchorPane.topAnchor="425.0" />
+      <Button layoutX="937.0" layoutY="431.0" mnemonicParsing="false" onAction="#handlePreview" prefHeight="57.0" prefWidth="91.0" text="PREVIEW" AnchorPane.bottomAnchor="91.0" AnchorPane.leftAnchor="937.0" AnchorPane.rightAnchor="74.0" AnchorPane.topAnchor="431.0" />
+      <Label fx:id="notaNotificationLabel" layoutX="611.0" layoutY="198.0" text="Label" />
+      <Label fx:id="profesorNotificationLabel" layoutX="791.0" layoutY="145.0" text="Label" />
+      <Label fx:id="formatData1" layoutX="850.0" layoutY="219.0" text="Format: dd.MM.yyyy" />
+      <Label fx:id="formatData2" layoutX="850.0" layoutY="309.0" text="Format: dd.MM.yyyy" />
+      <Label fx:id="predareTemaLabel" layoutX="973.0" layoutY="335.0" text="Label" />
+      <Button layoutX="543.0" layoutY="431.0" mnemonicParsing="false" onAction="#handleToRapoarte" prefHeight="57.0" prefWidth="126.0" text="-&gt;Rapoarte" />
+   </children>
+</AnchorPane>

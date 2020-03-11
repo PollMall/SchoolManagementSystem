@@ -1,0 +1,6 @@
+Tema: 4
+Nota: 10
+Predata in saptamana: 5
+Deadline: 7
+Feedback: Nicio observatie
+

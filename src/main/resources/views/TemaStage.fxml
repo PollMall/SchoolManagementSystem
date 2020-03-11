@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="596.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.TemaStageController">
+   <children>
+      <SplitPane dividerPositions="0.7750511247443763" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="596.0" prefWidth="980.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <TableView fx:id="temeTableView" layoutX="1.0" layoutY="1.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="596.0" prefWidth="755.0" AnchorPane.bottomAnchor="-3.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="-1.0" AnchorPane.topAnchor="1.0">
+                    <columns>
+                      <TableColumn fx:id="idColumn" prefWidth="60.0" text="ID" />
+                      <TableColumn fx:id="descriereColumn" prefWidth="365.0" text="Descriere" />
+                        <TableColumn fx:id="startWeekColumn" prefWidth="164.0" text="Start week" />
+                        <TableColumn fx:id="deadlineWeekColumn" prefWidth="165.0" text="Deadline week" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+          <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" prefHeight="217.0" prefWidth="136.0">
+               <children>
+                  <Button fx:id="addBtn" layoutX="70.0" layoutY="228.0" mnemonicParsing="false" onAction="#handleAdd" prefHeight="25.0" prefWidth="69.0" text="ADD" AnchorPane.bottomAnchor="341.0" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="78.0" AnchorPane.topAnchor="228.0" />
+                  <Button fx:id="updateBtn" layoutX="70.0" layoutY="285.0" mnemonicParsing="false" onAction="#handleUpdate" prefHeight="25.0" prefWidth="69.0" text="UPDATE" AnchorPane.bottomAnchor="284.0" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="78.0" AnchorPane.topAnchor="285.0" />
+                  <Button fx:id="removeBtn" layoutX="70.0" layoutY="345.0" mnemonicParsing="false" onAction="#handleRemove" prefHeight="25.0" prefWidth="69.0" text="REMOVE" AnchorPane.bottomAnchor="224.0" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="78.0" AnchorPane.topAnchor="345.0" />
+                  <TextField fx:id="searchDescriere" layoutX="22.0" layoutY="39.0" prefHeight="25.0" prefWidth="181.0" promptText="Cautare dupa descriere" AnchorPane.bottomAnchor="530.0" AnchorPane.leftAnchor="22.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="39.0" />
+                  <TextField fx:id="searchStartWeek" layoutX="22.0" layoutY="91.0" prefHeight="25.0" prefWidth="181.0" promptText="Cautare dupa start week" AnchorPane.bottomAnchor="478.0" AnchorPane.leftAnchor="22.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="91.0" />
+                  <TextField fx:id="searchDeadlineWeek" layoutX="22.0" layoutY="148.0" prefHeight="25.0" prefWidth="181.0" promptText="Cautare dupa deadline week" AnchorPane.bottomAnchor="421.0" AnchorPane.leftAnchor="22.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="148.0" />
+                  <Button fx:id="toNoteBtn" layoutX="48.0" layoutY="463.0" mnemonicParsing="false" onAction="#handleToNote" prefHeight="59.0" prefWidth="112.0" text="-&gt;Note" AnchorPane.bottomAnchor="72.0" AnchorPane.leftAnchor="48.0" AnchorPane.rightAnchor="57.0" AnchorPane.topAnchor="463.0" />
+                  <Button fx:id="undoBtn" layoutX="70.0" layoutY="407.0" mnemonicParsing="false" onAction="#handleUndo" prefHeight="25.0" prefWidth="69.0" text="UNDO" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

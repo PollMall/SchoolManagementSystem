@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FilterTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-11-22T07:37:26" hostname="DESKTOP-IF3JUU7" time="0.046">
+  <properties/>
+  <testcase name="filterByHomeworkAndWeek()" classname="FilterTest" time="0.02"/>
+  <testcase name="filterByHomeworkAndTeacher()" classname="FilterTest" time="0.003"/>
+  <testcase name="filterByGroup()" classname="FilterTest" time="0.003"/>
+  <testcase name="filterByHomework()" classname="FilterTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

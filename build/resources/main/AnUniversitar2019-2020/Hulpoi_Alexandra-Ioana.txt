@@ -1,0 +1,6 @@
+Tema: 2
+Nota: 10
+Predata in saptamana: 4
+Deadline: 4
+Feedback: "Foarte bine, Hulpoi!"
+

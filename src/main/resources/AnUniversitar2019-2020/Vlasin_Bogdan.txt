@@ -1,0 +1,6 @@
+Tema: 8
+Nota: 10
+Predata in saptamana: 11
+Deadline: 11
+Feedback: "fb"
+

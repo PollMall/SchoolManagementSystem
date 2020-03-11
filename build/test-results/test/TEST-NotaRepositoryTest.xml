@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="NotaRepositoryTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-11-22T07:37:26" hostname="DESKTOP-IF3JUU7" time="0.03">
+  <properties/>
+  <testcase name="delete()" classname="NotaRepositoryTest" time="0.002"/>
+  <testcase name="findAll()" classname="NotaRepositoryTest" time="0.001"/>
+  <testcase name="findOne()" classname="NotaRepositoryTest" time="0.001"/>
+  <testcase name="update()" classname="NotaRepositoryTest" time="0.012"/>
+  <testcase name="save()" classname="NotaRepositoryTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

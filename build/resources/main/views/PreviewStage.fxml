@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="421.0" prefWidth="430.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.PreviewStageController">
+   <children>
+      <Label fx:id="studentLabel" layoutX="62.0" layoutY="36.0" text="STUDENT -&gt;" />
+      <Label fx:id="temaLabel" layoutX="62.0" layoutY="79.0" text="TEMA -&gt;" />
+      <Label fx:id="dataLabel" layoutX="62.0" layoutY="120.0" text="DATA PREDARE TEMA -&gt;" />
+      <Label fx:id="studentPreview" layoutX="137.0" layoutY="36.0" text="Label" />
+      <Label fx:id="temaPreview" layoutX="115.0" layoutY="79.0" text="Label" />
+      <Label fx:id="dataPreview" layoutX="204.0" layoutY="120.0" text="Label" />
+      <Label fx:id="profesorLabel" layoutX="64.0" layoutY="159.0" text="PROFESOR -&gt;" />
+      <Label fx:id="profesorPreview" layoutX="143.0" layoutY="159.0" text="Label" />
+      <Label fx:id="notaLabel" layoutX="62.0" layoutY="192.0" text="NOTA -&gt;" />
+      <Label fx:id="notaPreview" layoutX="115.0" layoutY="192.0" text="Label" />
+      <Label fx:id="feedbackLabel" layoutX="187.0" layoutY="219.0" text="FEEDBACK" />
+      <Button fx:id="cancelBtn" layoutX="57.0" layoutY="375.0" mnemonicParsing="false" onAction="#handleCancel" text="CANCEL" />
+      <Button fx:id="saveBtn" layoutX="330.0" layoutY="375.0" mnemonicParsing="false" onAction="#handleSave" text="SAVE" />
+      <TextArea fx:id="feedbackTextArea" editable="false" layoutX="44.0" layoutY="236.0" prefHeight="125.0" prefWidth="355.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,7 @@
+Tema: 6
+Nota: 9
+Predata in saptamana: 11
+Deadline: 10
+Feedback: "fsdf"
+        
+

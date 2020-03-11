@@ -1,0 +1,31 @@
+Studentul: Vlasin Bogdan
+Tema: 1
+Nota: 10
+Predata in saptamana: 1
+Deadline: 2
+Feedback: Nicio observatie
+
+
+Studentul: Hulpoi Alexandra-Ioana
+Tema: 4
+Nota: 9
+Predata in saptamana: 6
+Deadline: 7
+Feedback: Cod duplicat la repository
+
+
+Studentul: Ion Mirel
+Tema: 4
+Nota: 10
+Predata in saptamana: 5
+Deadline: 7
+Feedback: Nicio observatie
+
+
+Studentul: Mohamed Dali Ahmed
+Tema: 6
+Nota: 10
+Predata in saptamana: 7
+Deadline: 10
+Feedback: Foarte bine Ahmed Tine-o tot asa!
+
